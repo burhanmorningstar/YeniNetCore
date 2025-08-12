@@ -1,11 +1,11 @@
-﻿using App.Application.Features.Categories;
+﻿using App.Api.Filters;
+using App.Application.Features.Categories;
 using App.Application.Features.Categories.Create;
 using App.Application.Features.Categories.Update;
 using App.Domain.Entities;
-using CleanApp.Api.Filters;
 using Microsoft.AspNetCore.Mvc;
 
-namespace CleanApp.Api.Controllers
+namespace App.Api.Controllers
 {
 
     public class CategoriesController(ICategoryService categoryService) : CustomBaseController

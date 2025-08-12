@@ -1,7 +1,7 @@
 ﻿using App.Domain.Exceptions;
 using Microsoft.AspNetCore.Diagnostics;
 
-namespace CleanApp.Api.ExceptionHandler
+namespace App.Api.ExceptionHandler
 {
     public class CriticalExceptionHandler : IExceptionHandler
     {

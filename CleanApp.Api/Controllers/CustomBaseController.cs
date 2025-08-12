@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
 
-namespace CleanApp.Api.Controllers
+namespace App.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

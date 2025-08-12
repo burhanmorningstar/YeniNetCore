@@ -1,8 +1,7 @@
 ﻿using App.Application.Contracts.Persistent;
 using App.Domain.Options;
-using App.Persistence.Categories;
 using App.Persistence.Interceptors;
-using App.Persistence.Products;
+using App.Persistence.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;

@@ -1,16 +1,14 @@
-﻿using App.Application.Contracts.Caching;
-using App.Caching;
+﻿using App.Caching;
 
-namespace CleanApp.Api.Extensions
+namespace App.Api.Extensions
 {
     public static class CachingExtension
     {
-        public static IServiceCollection AddCachingExt(this IServiceCollection services)
+        public static IServiceCollection AddCachingExt(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddMemoryCache();
-            services.AddSingleton<ICacheService, CacheService>();
+            services.AddCaching(configuration);
             return services;
         }
-
     }
 }

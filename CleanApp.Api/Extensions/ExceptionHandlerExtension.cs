@@ -1,6 +1,6 @@
-﻿using CleanApp.Api.ExceptionHandler;
+﻿using App.Api.ExceptionHandler;
 
-namespace CleanApp.Api.Extensions
+namespace App.Api.Extensions
 {
     public static class ExceptionHandlerExtension
     {

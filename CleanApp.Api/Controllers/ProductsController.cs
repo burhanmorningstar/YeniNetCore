@@ -1,12 +1,12 @@
-﻿using App.Application.Features.Products;
+﻿using App.Api.Filters;
+using App.Application.Features.Products;
 using App.Application.Features.Products.Create;
 using App.Application.Features.Products.Update;
 using App.Application.Features.Products.UpdateStock;
 using App.Domain.Entities;
-using CleanApp.Api.Filters;
 using Microsoft.AspNetCore.Mvc;
 
-namespace CleanApp.Api.Controllers
+namespace App.Api.Controllers
 {
     public class ProductsController(IProductService productService) : CustomBaseController
     {

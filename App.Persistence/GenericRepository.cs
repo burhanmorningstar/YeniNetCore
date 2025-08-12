@@ -8,7 +8,7 @@ namespace App.Persistence
     public class GenericRepository<T, TId>(AppDbContext context)
         : IGenericRepository<T, TId> where T : BaseEntity<TId> where TId : struct
     {
-        protected AppDbContext Context = context;
+        protected readonly AppDbContext Context = context;
         private readonly DbSet<T> _dbSet = context.Set<T>();
 
         public Task<bool> AnyAsync(TId id) => _dbSet.AnyAsync(x => x.Id.Equals(id));

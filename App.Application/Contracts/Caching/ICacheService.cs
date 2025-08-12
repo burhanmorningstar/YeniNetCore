@@ -1,11 +1,8 @@
-﻿namespace App.Application.Contracts.Caching
+﻿namespace App.Application.Contracts.Caching;
+
+public interface ICacheService
 {
-    public interface ICacheService
-    {
-        Task<T?> GetAsync<T>(string cacheKey);
-
-        Task AddAsync<T>(string cacheKey, T value, TimeSpan exprTimeSpan);
-
-        Task RemoveAsync(string cacheKey);
-    }
+    Task<T?> GetAsync<T>(string key, CancellationToken ct = default);
+    Task SetAsync<T>(string key, T value, TimeSpan? absolute = null, TimeSpan? sliding = null, CancellationToken ct = default);
+    Task RemoveAsync(string key, CancellationToken ct = default);
 }

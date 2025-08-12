@@ -1,0 +1,3 @@
+﻿C:\Users\geire\source\repos\YeniNetCore\App.Bus\BusExtensions.cs
+C:\Users\geire\source\repos\YeniNetCore\App.Bus\Consumers\ProductAddedEventConsumer.cs
+C:\Users\geire\source\repos\YeniNetCore\App.Bus\ServiceBus.cs

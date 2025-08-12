@@ -16,6 +16,7 @@ namespace App.Bus
 
             services.AddScoped<IServiceBus, ServiceBus>();
 
+
             services.AddMassTransit(x =>
             {
                 x.AddConsumer<ProductAddedEventConsumer>();

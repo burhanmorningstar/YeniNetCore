@@ -1,7 +1,10 @@
+using App.Api.Extensions;
 using App.Application.Extensions;
 using App.Bus;
+using App.Caching.Extensions;
+using App.Messaging.Extensions;
 using App.Persistence.Extensions;
-using CleanApp.Api.Extensions;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,18 +12,19 @@ builder.Services
     .AddControllersWithFiltersExt()
     .AddSwaggerGenExt()
     .AddExceptionHandlerExt()
-    .AddCachingExt();
-
-builder.Services
+    .AddCachingExt(builder.Configuration)
+    .AddApiOutputCaching(builder.Configuration)
     .AddRepositories(builder.Configuration)
     .AddServices(builder.Configuration)
+    .AddMessagingExt(builder.Configuration)
     .AddBusExt(builder.Configuration);
-
 
 var app = builder.Build();
 
 app.UseConfigurePipelineExt();
 
-app.MapControllers();
+app.UseApiOutputCaching(builder.Configuration);
 
-app.Run();
+app.MapControllersWithOutputCache(builder.Configuration);
+
+await app.RunAsync();

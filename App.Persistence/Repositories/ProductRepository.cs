@@ -2,7 +2,7 @@
 using App.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace App.Persistence.Products
+namespace App.Persistence.Repositories
 {
     public class ProductRepository(AppDbContext context) : GenericRepository<Product, int>(context), IProductRepository
     {

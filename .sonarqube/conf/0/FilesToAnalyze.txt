@@ -1,0 +1,12 @@
+﻿C:\Users\geire\source\repos\YeniNetCore\App.Domain\Const\ServiceBusConst.cs
+C:\Users\geire\source\repos\YeniNetCore\App.Domain\Entities\Category.cs
+C:\Users\geire\source\repos\YeniNetCore\App.Domain\Entities\Common\BaseEntity.cs
+C:\Users\geire\source\repos\YeniNetCore\App.Domain\Entities\Common\IAuditEntity.cs
+C:\Users\geire\source\repos\YeniNetCore\App.Domain\Entities\Product.cs
+C:\Users\geire\source\repos\YeniNetCore\App.Domain\Events\IEvent.cs
+C:\Users\geire\source\repos\YeniNetCore\App.Domain\Events\IEventOrMessage.cs
+C:\Users\geire\source\repos\YeniNetCore\App.Domain\Events\IMessage.cs
+C:\Users\geire\source\repos\YeniNetCore\App.Domain\Events\ProductAddedEvent.cs
+C:\Users\geire\source\repos\YeniNetCore\App.Domain\Exceptions\CriticalException.cs
+C:\Users\geire\source\repos\YeniNetCore\App.Domain\Options\ConnectionStringOption.cs
+C:\Users\geire\source\repos\YeniNetCore\App.Domain\Options\ServiceBusOption.cs

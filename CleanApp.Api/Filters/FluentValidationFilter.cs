@@ -2,9 +2,9 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 
-namespace CleanApp.Api.Filters
+namespace App.Api.Filters
 {
-    public class FluentValidationFilter : IAsyncActionFilter
+    public abstract class FluentValidationFilter : IAsyncActionFilter
     {
         public async Task OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next)
         {

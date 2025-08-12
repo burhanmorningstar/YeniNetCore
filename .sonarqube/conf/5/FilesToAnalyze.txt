@@ -1,0 +1,13 @@
+﻿C:\Users\geire\source\repos\YeniNetCore\App.Persistence\AppDbContext.cs
+C:\Users\geire\source\repos\YeniNetCore\App.Persistence\Configurations\CategoryConfiguration.cs
+C:\Users\geire\source\repos\YeniNetCore\App.Persistence\Configurations\ProductConfiguration.cs
+C:\Users\geire\source\repos\YeniNetCore\App.Persistence\Extensions\RepositoryExtensions.cs
+C:\Users\geire\source\repos\YeniNetCore\App.Persistence\GenericRepository.cs
+C:\Users\geire\source\repos\YeniNetCore\App.Persistence\Interceptors\AuditDbContextInterceptor.cs
+C:\Users\geire\source\repos\YeniNetCore\App.Persistence\Migrations\20250807071443_initial.cs
+C:\Users\geire\source\repos\YeniNetCore\App.Persistence\Migrations\20250807071443_initial.Designer.cs
+C:\Users\geire\source\repos\YeniNetCore\App.Persistence\Migrations\AppDbContextModelSnapshot.cs
+C:\Users\geire\source\repos\YeniNetCore\App.Persistence\PersistenceAssembly.cs
+C:\Users\geire\source\repos\YeniNetCore\App.Persistence\Repositories\CategoryRepository.cs
+C:\Users\geire\source\repos\YeniNetCore\App.Persistence\Repositories\ProductRepository.cs
+C:\Users\geire\source\repos\YeniNetCore\App.Persistence\UnitOfWork.cs

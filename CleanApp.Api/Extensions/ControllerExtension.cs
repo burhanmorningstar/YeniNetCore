@@ -1,6 +1,6 @@
-﻿using CleanApp.Api.Filters;
+﻿using App.Api.Filters;
 
-namespace CleanApp.Api.Extensions
+namespace App.Api.Extensions
 {
     public static class ControllerExtension
     {

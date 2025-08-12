@@ -1,0 +1,1 @@
+﻿C:\Users\geire\source\repos\YeniNetCore\App.Messaging\Extensions\ServiceCollectionExtensions.cs

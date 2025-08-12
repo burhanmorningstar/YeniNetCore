@@ -1,0 +1,4 @@
+﻿C:\Users\geire\source\repos\YeniNetCore\App.Caching\DependencyInjection.cs
+C:\Users\geire\source\repos\YeniNetCore\App.Caching\Extensions\OutputCacheSettings.cs
+C:\Users\geire\source\repos\YeniNetCore\App.Caching\Extensions\OutputCachingExtensions.cs
+C:\Users\geire\source\repos\YeniNetCore\App.Caching\RedisCacheService.cs

@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Diagnostics;
 using System.Net;
 
-namespace CleanApp.Api.ExceptionHandler
+namespace App.Api.ExceptionHandler
 {
     public class GlobalExceptionHandler : IExceptionHandler
     {
